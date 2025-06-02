@@ -1,0 +1,311 @@
+html, body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(219, 205, 205)
+}
+
+.logo{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}   
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #3b3b3b;
+  height: 13vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1350px; /* não é possível usar o 100% devido ao o que esta entro do 'body' aqui no cc*/
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li{
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+nav a {
+  color: rgb(235, 226, 226);
+  text-decoration: none;
+  font-weight: bold;
+  }
+  
+nav a:hover{
+  color: rgb(196, 167, 167);
+  text-decoration: underline;
+}
+
+nav a:active{
+  color: rgb(131, 99, 99);
+}
+
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+#imagem1{
+  border-radius: 8px;
+  width: 400px;
+  height: 250px;
+  margin-top: 1.25rem;
+}
+
+#tabela1 th{
+  font-size: 24px;
+}
+
+#tabela1 td{
+  font-size: 1.25rem;
+}
+
+#tabela1{
+  color: rgb(34, 32, 32);
+  background: rgb(161, 161, 168);
+  margin-top: 1.25rem;
+  width: 850px;      
+  padding: 8px;      
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#esquema_conceitual{
+  color: rgb(34, 32, 32);
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+#imagem2{
+  border-radius: 8px;
+  width: 600px;
+  margin-bottom: 60px;
+}
+
+#palavra_chave{
+  color: rgb(34, 32, 32);
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+#tabela2{
+  color: rgb(34, 32, 32);
+  border-collapse: separate; /* Necessário para que border-spacing funcione */
+  border-spacing: 50px 0;    /* 30px entre colunas, 0 entre linhas */
+  background: rgb(161, 161, 168);    
+  padding: 8px;      
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin: 40px;
+
+}
+
+#tabela2 th{
+  font-size: 24px;
+}
+
+#tabela2 td{
+  font-size: 1.25rem;
+}
+
+.linkstabela2{
+  color: rgb(66, 66, 146);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkstabela2:hover{
+  color: rgb(3, 3, 185);
+  text-decoration: underline;
+}
+   
+.linkstabela2:active{
+  color: rgb(212, 16, 16);
+}
+
+.imagem3{
+  border-radius: 8px;
+  width: 12.5rem;
+  height: 250px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.coluna {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+}
+
+.coluna h3 {
+  text-align: center;
+}
+
+.coluna ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+#componentes{
+  font-size: 27px;
+  color: rgb(34, 32, 32);
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+#lista1{
+  font-size: 21px;
+  color: rgb(34, 32, 32);
+  margin-bottom: 80px;
+}
+
+#ferramentas{
+  font-size: 27px;
+  color: rgb(34, 32, 32);
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+#lista2{
+  font-size: 21px;
+  color: rgb(34, 32, 32);
+  margin-bottom: 80px;
+}
+
+#passoa{
+  font-size: 27px;
+  color: rgb(34, 32, 32);
+}
+
+#tabela3{
+  border-collapse: separate;
+  border-spacing: 100px 0;
+  background: rgb(161, 161, 168);
+  width: 1000px;      
+  padding: 8px;      
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: rgb(34, 32, 32);
+  margin-bottom: 60px;
+}
+
+#tabela3 td:first-child {
+  text-align: left;
+}
+
+#tabela3 th{
+  font-size: 24px;
+}
+
+#tabela3 td{
+  font-size: 1.25rem;
+}
+
+.imagem4{
+  border-radius: 8px;
+  width: 300px;
+}
+
+#trechos_codigo{
+  font-size: 27px;
+  color: rgb(34, 32, 32);
+  margin-top: 80px;
+}
+
+#lista-imagens5{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.imagem5{
+  border-radius: 8px;
+  width: 650px;
+  margin-bottom: 1.25rem;
+}
+
+.links{
+  font-size: 19px;
+  color: rgb(66, 66, 146);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links:hover{
+  color: rgb(3, 3, 185);
+  text-decoration: underline;
+}
+   
+.links:active{
+  color: rgb(212, 16, 16);
+}
+
+#arquivozip{
+  font-size: 27px;
+  color: rgb(34, 32, 32);
+}
+
+#linkarquivo{
+  margin-bottom: 80px;
+}
+
+#videoyt{
+  font-size: 27px;
+  color: rgb(34, 32, 32);
+}
+
+#linkvideo{
+  margin-bottom: 80px;
+}
+
+.container1 {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 1.25rem;
+  width: 700px;      
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 18px;
+  padding-top: 1px;      
+  border-radius: 10px;
+}
+
+.coluna1 {
+  flex: 1; 
+  min-width: 300px; 
+}
+
+.ultimosh3{
+  font-size: 22px;
+  color: rgb(34, 32, 32);
+}
+
+.ultimosp{
+  font-size: 18px;
+  color: rgb(34, 32, 32);
+}
+
+.contextualizacao{
+  padding: 20px;
+  text-align: justify;
+}
