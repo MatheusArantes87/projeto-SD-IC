@@ -19,7 +19,7 @@ nav{
   height: 13vh;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%; /* não é possível usar o 100% devido ao o que esta dentro do 'body' aqui no css*/
+  width: 1350px; /* não é possível usar o 100% devido ao o que esta dentro do 'body' aqui no css*/
 }
 
 .nav-list{
